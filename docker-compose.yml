@@ -1,0 +1,16 @@
+version: "3.9"
+
+services:
+
+  decorator-pattern:
+
+    build:
+
+      context: .
+
+      dockerfile: Dockerfile
+
+    image: decorator-pattern
+
+    ports:
+        - "5001:80"
